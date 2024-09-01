@@ -21,7 +21,7 @@ This repository is organized into six main folders, each dedicated to a specific
    - **Learning Journey**: My journey from  basic conecpts in Python to using data manipulation and visualisation packages (matplotlib, NumPy, Pandas and Seaborn) I used Jupyter notebooks to document the process, currently hosted on my [Kaggle](https://www.kaggle.com/jakeshiel)
 
 ### 4. **R**
-   - **Project**: [Project Title] - (e.g., "Customer Segmentation") A project where I used R for statistical analysis and data visualization.
+   - **Project**: Walmart Sales A project where I used R for statistical analysis and data visualization.
    - **Learning Journey**: Documenting my learning process in R, from basic syntax and data structures to advanced analysis and ggplot2 visualizations.
 
 ### 5. **SQL**
@@ -56,8 +56,17 @@ I’m always eager to connect with like-minded individuals, potential collaborat
 - **Portfolio**: [jakeshiel-data-analyst](https://sites.google.com/view/jakeshiel-data-analyst/home)
 
 ### Skills
-<p align="left">
-<a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="36" height="36" alt="Python" /></a>
-<a href="https://www.r-project.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/rlang-colored.svg" width="36" height="36" alt="rlang" /></a>
-<a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg" width="36" height="36" alt="MySQL" /></a>
+<p align="left" style="margin: 0; padding: 0;">
+  <a href="https://www.tableau.com/" target="_blank" rel="noreferrer" style="display: inline-block; margin: 0; padding: 0;">
+    <img src="https://img.icons8.com/color/48/000000/tableau-software.png" width="36" height="36" alt="Tableau" style="vertical-align: middle; display: inline-block; margin: 0; padding: 0;" /></a>
+  <a href="https://powerbi.microsoft.com/" target="_blank" rel="noreferrer" style="display: inline-block; margin: 0; padding: 0;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" width="36" height="36" alt="PowerBI" style="vertical-align: middle; display: inline-block; margin: 0; padding: 0;" /></a>
+  <a href="https://www.microsoft.com/en-us/microsoft-365/excel" target="_blank" rel="noreferrer" style="display: inline-block; margin: 0; padding: 0;">
+    <img src="https://img.icons8.com/color/48/000000/microsoft-excel-2019.png" width="36" height="36" alt="Excel" style="vertical-align: middle; display: inline-block; margin: 0; padding: 0;" /></a>
+  <a href="https://www.python.org/" target="_blank" rel="noreferrer" style="display: inline-block; margin: 0; padding: 0;">
+    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="36" height="36" alt="Python" style="vertical-align: middle; display: inline-block; margin: 0; padding: 0;" /></a>
+  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer" style="display: inline-block; margin: 0; padding: 0;">
+    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg" width="36" height="36" alt="MySQL" style="vertical-align: middle; display: inline-block; margin: 0; padding: 0;" /></a>
+  <a href="https://www.r-project.org/" target="_blank" rel="noreferrer" style="display: inline-block; margin: 0; padding: 0;">
+    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/rlang-colored.svg" width="36" height="36" alt="rlang" style="vertical-align: middle; display: inline-block; margin: 0; padding: 0;" /></a>
 </p>
