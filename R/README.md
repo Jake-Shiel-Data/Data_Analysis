@@ -1,7 +1,7 @@
 # R Learning Journey & Projects
 ## Welcome to My R Learning Repository
 
-Hello! I'm Jake Shiel, and this repository is a showcase of my R learning journey. This space captures my progress as I advance from basic R concepts to more 
+Hello! This repository is a showcase of my R learning journey. This space captures my progress as I advance from basic R concepts to more 
 sophisticated data analysis techniques. My goal is to leverage R’s powerful capabilities for data manipulation and statistical analysis, turning raw data into 
 actionable insights.
 
