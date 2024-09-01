@@ -2,7 +2,7 @@
 
 ## Welcome to My Excel Learning Repository
 
-Hello! this repository is a showcase of my learning journey with Microsoft Excel. As part of my continuous professional development, I've been delving into the powerful features of Excel, mastering techniques that range from basic data manipulation to advanced data analysis.
+Hello! This repository is a showcase of my learning journey with Microsoft Excel. As part of my continuous professional development, I've been delving into the powerful features of Excel, mastering techniques that range from basic data manipulation to advanced data analysis.
 
 ## What's in This Repository?
 I studied all the following using this course on Udemy:
