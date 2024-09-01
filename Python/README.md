@@ -1,7 +1,7 @@
 # Python Learning Journey & Projects
 ## Welcome to My Python Learning Repository
 
-Hello! I'm Jake Shiel, and this repository is a showcase of my Python learning journey. This space captures my progress as I advance from basic Python concepts to more sophisticated data analysis techniques using libraries like Pandas, NumPy, Matplotlib, and Seaborn. My goal is to leverage Python’s powerful capabilities for data manipulation and visualization, turning raw data into actionable insights.
+Hello! This repository is a showcase of my Python learning journey. This space captures my progress as I advance from basic Python concepts to more sophisticated data analysis techniques using libraries like Pandas, NumPy, Matplotlib, and Seaborn. My goal is to leverage Python’s powerful capabilities for data manipulation and visualization, turning raw data into actionable insights.
 
 ## What's in This Repository?
 ### 1. **Python Learning Journey**
