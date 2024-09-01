@@ -1,7 +1,7 @@
 # Tableau Learning & Projects
 ## Welcome to My Tableau Learning Repository
 
-Hello! Tthis repository showcases my learning journey with Tableau, a powerful data visualization tool. This space captures my progress as I advance from basic Tableau concepts to more sophisticated dashboard creation, aimed at transforming data into actionable insights.
+Hello! This repository showcases my learning journey with Tableau, a powerful data visualization tool. This space captures my progress as I advance from basic Tableau concepts to more sophisticated dashboard creation, aimed at transforming data into actionable insights.
 
 ###  **Tableau Projects**
 
@@ -16,10 +16,12 @@ Feel free to explore the files in this repository. Whether you are a fellow lear
 
 ## Future Plans
 
-As I continue to grow my Tableau skills, I plan to add more advanced projects and explore deeper integration with Python and other data tools:
+As I continue to grow my Tableau skills, I plan to add more advanced projects and explore deeper integration with SQL, Python and other data tools:
 
 - **Storytelling with Data**: Using Tableau to craft compelling data stories that communicate insights effectively.
 - **Data Integration**: Leveraging Tableau's ability to connect to multiple data sources for more complex analyses.
+
+All my vizzes can be found on my [Tableau Public:](https://public.tableau.com/app/profile/jake.shiel6799/vizzes)
 
 ## Let's Connect
 
