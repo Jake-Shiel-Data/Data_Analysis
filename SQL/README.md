@@ -36,10 +36,10 @@ Feel free to explore the files in this repository. Whether you are a fellow lear
 
 ## Future Plans
 
-As I continue to grow my Python skills, I plan to add more advanced projects and delve deeper into areas such as:
+As I continue to grow my SQL skills, I plan to add more advanced projects and delve deeper into areas such as:
 
 - **Automation**: Using Python to automate data processing tasks, such as web scraping and report generation.
-- **Data Engineering**: Exploring the use of Python in data pipeline creation, ETL processes, and database management.
+- **Data Engineering**: Exploring the use of SQL in data pipeline creation, ETL processes, and database management.
 
 ## Let's Connect
 
