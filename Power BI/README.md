@@ -1,7 +1,7 @@
 # Power BI Learning & Projects
 ## Welcome to My Power BI Learning Repository
 
-Hello! I'm Jake Shiel, and this repository showcases my learning journey with Tableau, a powerful data visualization tool. 
+Hello! This repository showcases my learning journey with Tableau, a powerful data visualization tool. 
 This space captures my progress as I advance from basic Tableau concepts to more sophisticated dashboard creation, aimed at 
 transforming data into actionable insights.
 
