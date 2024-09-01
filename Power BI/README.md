@@ -1,8 +1,8 @@
 # Power BI Learning & Projects
 ## Welcome to My Power BI Learning Repository
 
-Hello! This repository showcases my learning journey with Tableau, a powerful data visualization tool. 
-This space captures my progress as I advance from basic Tableau concepts to more sophisticated dashboard creation, aimed at 
+Hello! This repository showcases my learning journey with Power BI, a powerful data visualization tool. 
+This space captures my progress as I advance from basic Power BI concepts to more sophisticated dashboard creation, aimed at 
 transforming data into actionable insights.
 
 ###  **Power BI Projects**
