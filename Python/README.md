@@ -27,6 +27,8 @@ This repository features two full-fledged projects that demonstrate my ability t
 
 #### **Project 2: Hotel Bookings Data Analysis**
 - **Description**: This project involves analyzing hotel booking data to gain insights into customer behavior, booking patterns, and revenue trends. The goal is to identify factors that influence cancellations, booking lead times, and average daily rates.
+- This notebook will only work in its current state when run in google colab due to the mounting of the drive. Make sure to
+download the CSV if you want to use another notebook editor.
 - **Tools Used**: Pandas, NumPy, Matplotlib, Seaborn.
 
 ## How to Use This Repository
