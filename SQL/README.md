@@ -1,7 +1,7 @@
 # SQL Learning Journey & Projects
 ## Welcome to My SQL Learning Repository
 
-Hello! I'm Jake Shiel, and this repository is a showcase of my SQL learning journey. This space captures my progress as I advance from basic 
+Hello! This repository is a showcase of my SQL learning journey. This space captures my progress as I advance from basic 
 SQL concepts to more advanced database management techniques. My goal is to leverage SQL’s powerful capabilities for querying and 
 manipulating data, turning raw data into actionable insights.
 
