@@ -1,0 +1,138 @@
+# Let's begin by importing the necessary libraries.
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Load the dataset into a Pandas DataFrame
+file_path = '/content/Technical Assessment - Data-set - Cleaned_V2 (1).xlsx'
+df = pd.read_excel(file_path, sheet_name='Dataset - RAW DATA')
+
+# Inspect the first few rows of the dataset
+df.head()
+
+
+# Define the carriers for each graph
+graph1_carriers = ["HLCU", "MAEU", "MEDU", "ONEY"]
+graph2_carriers = ["CMDU", "COSU", "EXDO", "HDMU"]
+
+# Count occurrences of Port_of_Origin for each Carrier
+carrier_port_counts = df.groupby(['Carrier', 'Port_of_Origin']).size().unstack(fill_value=0)
+
+# Create a color map for the specific ports for each graph
+port_colors_graph1 = {
+    'CNNGB': '#005bd3',  # Navy blue
+    'CNSHA': '#d20202',  # Red
+    'CNSZX': 'green',
+    'CNYTN': 'lightblue'
+}
+
+port_colors_graph2 = {
+    'CNNGB': '#005bd3',  # Navy blue
+    'CNSHA': '#d20202',  # Red
+    'CNYTN': 'lightblue'
+}
+
+# Separate data for each graph
+graph1_data = carrier_port_counts.loc[graph1_carriers]
+
+# For graph2, drop "CNSZX" if it's present
+graph2_data = carrier_port_counts.loc[graph2_carriers].drop(columns=['CNSZX'], errors='ignore')
+
+# Plot the stacked bar charts on top of each other
+fig, axes = plt.subplots(2, 1, figsize=(16, 16))  # 2 rows, 1 column
+
+# Plot Graph 1 with the specified colors
+graph1_data.plot(kind='barh', stacked=True, ax=axes[0],
+                 color=[port_colors_graph1.get(port, '#333333') for port in graph1_data.columns])
+axes[0].set_title('Top 4 Carriers', fontsize=30)
+axes[0].set_ylabel('Carrier', fontsize=20)
+axes[0].set_xlabel('Number of freights', fontsize=20)
+axes[0].set_yticks(range(len(graph1_carriers)))
+axes[0].set_yticklabels(graph1_carriers, fontsize=14)
+axes[0].set_xlim(2000, 8000)
+
+# Set the legend with a title for Graph 1
+legend1 = axes[0].legend(fontsize=25)
+legend1.set_title("Port of Origin", prop={'size': 18})  # Add legend title with larger font size
+
+# Plot Graph 2 with the specified colors and without CNSZX
+graph2_data.plot(kind='barh', stacked=True, ax=axes[1],
+                 color=[port_colors_graph2.get(port, '#333333') for port in graph2_data.columns])
+axes[1].set_title('Bottom 4 Carriers', fontsize=30)
+axes[1].set_ylabel('Carrier', fontsize=20)
+axes[1].set_xlabel('Number of freights', fontsize=20)
+axes[1].set_yticks(range(len(graph2_carriers)))
+axes[1].set_yticklabels(graph2_carriers, fontsize=14)
+axes[1].set_xlim(0, 300)
+
+# Set the legend with a title for Graph 2
+legend2 = axes[1].legend(fontsize=25)
+legend2.set_title("Port of Origin", prop={'size': 18})  # Add legend title with larger font size
+
+plt.tight_layout()
+plt.show()
+
+
+# Define the carriers for each graph
+graph1_carriers = ["HLCU", "MAEU", "MEDU", "ONEY"]
+graph2_carriers = ["CMDU", "COSU", "EXDO", "HDMU"]
+
+# Count occurrences of Port_of_Origin for each Carrier
+carrier_port_counts = df.groupby(['Carrier', 'Port_of_Delivery']).size().unstack(fill_value=0)
+
+# Create a color map for the specific ports for each graph
+port_colors_graph1 = {
+    'GBBHM': '#005bd3',  # Navy blue
+    'GBFXT': '#d20202',  # Less bright Red
+    'GBSOU': 'green'
+}
+
+port_colors_graph2 = {
+    'GBBHM': '#005bd3',  # Navy blue
+    'GBFXT': '#d20202',  # Less bright Red
+    'GBSOU': 'green'
+}
+
+# Separate data for each graph
+graph1_data = carrier_port_counts.loc[graph1_carriers].drop(columns=['GBBHM'], errors='ignore')
+
+# For graph2, drop "CNSZX" if it's present
+graph2_data = carrier_port_counts.loc[graph2_carriers]
+
+# Plot the stacked bar charts on top of each other
+fig, axes = plt.subplots(2, 1, figsize=(16, 16))  # 2 rows, 1 column
+
+# Plot Graph 1 with the specified colors
+graph1_data.plot(kind='barh', stacked=True, ax=axes[0],
+                 color=[port_colors_graph1.get(port, '#333333') for port in graph1_data.columns])
+axes[0].set_title('Top 4 Carriers', fontsize=30)  # Increased title font size
+axes[0].set_ylabel('Carrier', fontsize=20)  # Increased axis label font size
+axes[0].set_xlabel('Number of freights', fontsize=20)  # Increased axis label font size
+axes[0].set_yticks(range(len(graph1_carriers)))
+axes[0].set_yticklabels(graph1_carriers, fontsize=14)  # Increased tick label font size
+axes[0].set_xlim(2000, 8000)
+axes[0].legend(fontsize=25)
+
+# Set the legend with a title for Graph 1
+legend1 = axes[0].legend(fontsize=25)
+legend1.set_title("Port of Origin", prop={'size': 18})  # Add legend title with larger font size
+
+# Plot Graph 2 with the specified colors and without CNSZX
+graph2_data.plot(kind='barh', stacked=True, ax=axes[1],
+                 color=[port_colors_graph2.get(port, '#333333') for port in graph2_data.columns])
+axes[1].set_title('Bottom 4 Carriers', fontsize=30)  # Increased title font size
+axes[1].set_ylabel('Carrier', fontsize=20)  # Increased axis label font size
+axes[1].set_xlabel('Number of freights', fontsize=20)  # Increased axis label font size
+axes[1].set_yticks(range(len(graph2_carriers)))
+axes[1].set_yticklabels(graph2_carriers, fontsize=14)  # Increased tick label font size
+axes[1].set_xlim(0, 300)
+axes[1].legend(fontsize=25)
+
+# Set the legend with a title for Graph 2
+legend2 = axes[1].legend(fontsize=25)
+legend2.set_title("Port of Origin", prop={'size': 18})  # Add legend title with larger font size
+
+plt.tight_layout()
+plt.show()
